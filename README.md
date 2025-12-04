@@ -13,7 +13,6 @@ A modern, interactive version of the classic Tic-Tac-Toe game built using HTML, 
 - **Score Tracking:** Keeps track of wins for both Player X and Player O.
 - **Match Statistics:** Tracks Total Matches Played and Total Draws.
 - **Winner Announcement:** A custom popup modal announces the winner or if the game is a draw.
-- **Responsive Design:** Beautiful Purple-themed UI that works on different screen sizes.
 
 ## 🛠️ Tech Stack
 
@@ -46,7 +45,11 @@ This project helped strengthen my understanding of:
 
 ## 👏 Acknowledgements
 
-This project was built under the guidance of **Shradha Khapra** (Apna College).
+This project was initially built under the guidance of **Shradha Khapra** (Apna College).
+
+I extended the original tutorial by adding my own custom features:
+* **Real-time Score Tracking** (Total Matches & Draws).
+* **Custom UI Design** with a purple theme.
 
 ---
 
