@@ -1,6 +1,18 @@
 # 🎮 Tic-Tac-Toe Web Game
 
-A modern, interactive version of the classic Tic-Tac-Toe game built using HTML, CSS, and JavaScript. This project features a clean UI, real-time score tracking, and dynamic turn logic.
+Welcome to the digital arena of X's and O's! This isn't just your average paper-and-pencil game; it is a fully interactive web experience designed specifically for the **big screen**.
+
+I built this project to engineer a robust state-management system in vanilla JavaScript. Beyond just checking for a winner, the game features a sleek **purple-themed UI optimized for Desktop/PC**, **real-time score tracking** to settle those "best of 3" arguments, and a **smart turn-switching logic** that rewards the winner with the first move in the next round.
+
+### 🚀 Live Demo:
+
+***Click here to destroy your friend or just play against yourself 👉*** [[❌⭕]](https://junaidusmani2468.github.io/Tic-Tac-Toe-Web-Game/)
+
+> **⚠️ Mobile Users Beware:** This game is currently **PC Only**. If you open this on your phone, the UI might look a little... abstract (broken). Please use a Laptop or PC for the best experience! 💻
+
+## 📸 Screenshots
+
+Here's a look at the game in action:
 
 ![Game Screenshot](/assets/Tic-Tac-Toe-SS1.png)
 
