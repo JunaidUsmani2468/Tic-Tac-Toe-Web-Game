@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+body {
+    background-color: #A288E3;
+    text-align: center;
+}
+
+#background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 500px;
+    background-color: black;
+    clip-path: polygon(0 0, 100% 0, 90% 50%, 100% 100%, 0 100%, 10% 50%);
+    margin-bottom: 40px;
+    scale: 1.2;
+}
+
+#background:hover {
+    cursor: default;
+    scale: 1.3;
+    transition: 0.5s;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: white;
+    height: 60px;
+    width: 400px;
+    background-color: #38023B;
+    line-height: 60px;
+    clip-path: polygon(0 0, 100% 0, 91% 50%, 100% 100%, 0 100%, 9% 50%);
+}
+
+.container {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    color: #E1DAF6;
+    font-size: 10vmin;
+    background-color: #E1DAF6;
+}
+
+.box:hover {
+    cursor: pointer;
+    scale: 1.1;
+    transition: 0.5s;
+}
+
+#new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #A288E3;
+    color: #38023B;
+    border-radius: 1rem;
+    border: 3px solid #38023B;
+}
+
+#new-btn:hover {
+    scale: 1.1;
+    transition: 0.8s;
+}
+
+#reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #38023B;
+    color: white;
+    border: 3px solid black;
+    clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
+}
+
+#reset-btn:hover {
+    scale:  1.1;
+    transition: 0.8s;
+}
+
+.msg-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.msg-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+#msg {
+    color: white;
+    font-size: 8vmin;
+    font-weight: bold;
+    background-color: #38023B;
+    width: auto;
+    height: 12vmin;
+    line-height: 12vmin;
+    padding: 0 5rem 0 5rem;
+    border: 5px solid black;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+    gap: 4rem;
+}
+
+#msg:hover {
+    scale: 1.1;
+    transition: 0.5s;
+    cursor: default;
+}
+
+.hide {
+    display: none;
+}
+
+.player {
+    height: 150px;
+    width: 150px;
+    font-size: 1.5rem;
+    background-color: #8867B9;
+    color: #38023B;
+    position: fixed;
+    padding: 1rem;
+    border: 5px solid #38023B;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.player:hover {
+    cursor: pointer;
+    scale: 1.3;
+    transition: 1s;
+}
+
+.p1Position {
+    top: 30%;
+    left: 10%;
+}
+
+.p2Position {
+    top: 30%;
+    right: 10%;
+}
+
+#player1-score,
+#player2-score {
+    background-color: #6D458F;
+    color: white;
+    border: 4px solid #38023B;
+    padding: 5px;
+    width: 100px;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    border-radius: 1rem;
+}
+
+.board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 350px;
+    background-color: black;
+    position: fixed;
+    scale: 1.1;
+}
+
+.board:hover {
+    cursor: default;
+    scale: 1.2;
+    transition: 0.5s;
+}
+
+.match {
+    top: 72%;
+    left: -10px;
+    clip-path: polygon(0 0, 100% 0, 90% 50%, 100% 100%, 0% 100%);
+}
+
+.draw {
+    top: 72%;
+    right: -10px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 10% 50%);
+}
+
+.minBoard {
+    height: 60px;
+    width: 300px;
+    background-color: #38023B;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+#total-match {
+    clip-path: polygon(0 0, 100% 0, 90% 50%, 100% 100%, 0 100%);
+}
+
+#total-draw {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 10% 50%);
+}
