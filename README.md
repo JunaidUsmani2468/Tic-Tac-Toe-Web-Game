@@ -10,7 +10,7 @@ I built this project to engineer a robust state-management system in vanilla Jav
 
 > **⚠️ Mobile Users Beware:** This game is currently **PC Only**. If you open this on your phone, the UI might look a little... abstract (broken). Please use a Laptop or PC for the best experience! 💻
 
-## 📸 Screenshots
+## 📸 Screenshot
 
 Here's a look at the game in action:
 
