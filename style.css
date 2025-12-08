@@ -249,6 +249,8 @@ h1 {
 @media only screen and (max-width: 768px) {
     
     .mobile-warning {
+        all: unset;
+
         display: flex;
         justify-content: center;
         align-items: center;
